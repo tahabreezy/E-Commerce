@@ -11,6 +11,7 @@ namespace E_Commerce.Controllers
 {
     public class HomeController : Controller
     {
+        //My first change.
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
