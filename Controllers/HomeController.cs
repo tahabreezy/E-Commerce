@@ -13,7 +13,7 @@ namespace E_Commerce.Controllers
     {
         
         private readonly ILogger<HomeController> _logger;
-        //second change.
+        //my first change.
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
