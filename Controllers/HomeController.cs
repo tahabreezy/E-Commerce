@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 
 namespace E_Commerce.Controllers
 {
+
+    // test mac
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
