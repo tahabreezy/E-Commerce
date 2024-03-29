@@ -13,8 +13,9 @@ namespace E_Commerce.Controllers
     // test mac
     public class HomeController : Controller
     {
+        
         private readonly ILogger<HomeController> _logger;
-
+        //my first change gfgff.
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
