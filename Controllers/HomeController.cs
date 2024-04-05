@@ -10,10 +10,10 @@ using System.Threading.Tasks;
 namespace E_Commerce.Controllers
 {
 
-    // test mac ééé
+    // test mac ééé V5
     public class HomeController : Controller
     {
-        // test jadid
+        // test jadid 
         // comment new v2 
         private readonly ILogger<HomeController> _logger;
         //my first change gfgff.
