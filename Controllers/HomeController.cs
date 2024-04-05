@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace E_Commerce.Controllers
 {
 
-    // test mac ééé V5
+    // release
     public class HomeController : Controller
     {
         // test jadid 
