@@ -9,13 +9,17 @@ using System.Threading.Tasks;
 
 namespace E_Commerce.Controllers
 {
+    //loubna
     //newmodification
     // release
-    //newmodif
+    //newCOm
+    //Soukaina battah
+
     public class HomeController : Controller
     {
         // test jadid 
         // comment new v2 
+        //ouma comment1
         private readonly ILogger<HomeController> _logger;
         //my first change gfgff.
         public HomeController(ILogger<HomeController> logger)
