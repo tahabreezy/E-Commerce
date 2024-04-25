@@ -16,6 +16,7 @@ namespace E_Commerce.Controllers
     {
         // test jadid 
         // comment new v2 
+        //ouma comment
         private readonly ILogger<HomeController> _logger;
         //my first change gfgff.
         public HomeController(ILogger<HomeController> logger)
