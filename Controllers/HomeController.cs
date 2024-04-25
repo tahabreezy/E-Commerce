@@ -11,7 +11,7 @@ namespace E_Commerce.Controllers
 {
     //newmodification
     // release
-    //newmodif
+    //newCOm
     public class HomeController : Controller
     {
         // test jadid 
