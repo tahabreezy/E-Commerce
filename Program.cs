@@ -15,7 +15,11 @@ namespace E_Commerce
         {
             CreateHostBuilder(args).Build().Run();
         }
+
+        // tete
+
         // test oia
+
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
