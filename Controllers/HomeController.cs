@@ -13,6 +13,8 @@ namespace E_Commerce.Controllers
     //newmodification
     // release
     //newCOm
+    //Soukaina battah
+
     public class HomeController : Controller
     {
         // test jadid 
