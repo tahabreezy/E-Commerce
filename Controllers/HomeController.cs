@@ -22,6 +22,7 @@ namespace E_Commerce.Controllers
         //ouma comment1
         private readonly ILogger<HomeController> _logger;
         //my first change gfgff.
+        //MY CHANGE
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
