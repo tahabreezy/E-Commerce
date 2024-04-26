@@ -14,7 +14,7 @@ namespace E_Commerce.Controllers
     //newmodif
     public class HomeController : Controller
     {
-        // test jadid 
+        // test jadid    test sonard
         // comment new v2 
         private readonly ILogger<HomeController> _logger;
         //my first change gfgff.
