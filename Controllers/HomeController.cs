@@ -39,14 +39,14 @@ namespace E_Commerce.Controllers
         /// le code corrige 
         public int somme (int a,int b)
         {
+            //Correction Oualid Amsaguine 
+            int s = a +b;
+            return s;
 
-            //hiba benchaira correction
-            int s = 0;
-            return s=a+b;            
 
 
           //Wakach aymane correction de bug
-            return a + b;
+            return s + b;
         }
     }
 }
