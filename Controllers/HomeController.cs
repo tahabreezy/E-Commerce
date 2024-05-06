@@ -13,9 +13,9 @@ namespace E_Commerce.Controllers
     // release
     public class HomeController : Controller
     {
-    
+
         private readonly ILogger<HomeController> _logger;
-       
+
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -37,16 +37,23 @@ namespace E_Commerce.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
         /// le code corrige 
-        public int somme (int a,int b)
+        public int somme(int a, int b)
         {
 
             //hiba benchaira correction
             int s = 0;
-            return s=a+b;            
+            return s = a + b;
 
 
-          //Wakach aymane correction de bug
+            //Wakach aymane correction de bug
             return a + b;
+        }
+
+
+        public int SommeManal(int aa, int bb)
+        {
+            int s = 0;
+            return s = aa + bb;
         }
     }
 }
