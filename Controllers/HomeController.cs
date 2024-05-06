@@ -9,20 +9,13 @@ using System.Threading.Tasks;
 
 namespace E_Commerce.Controllers
 {
-    //loubna
-    //newmodification
-    // release
-    //newCOm
-    //Soukaina battah
 
+    // release
     public class HomeController : Controller
     {
-        // test jadid    test sonard
-        // comment new v2 
-        //ouma comment1
+    
         private readonly ILogger<HomeController> _logger;
-        //my first change gfgff.
-        //MY CHANGE
+       
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -44,12 +37,9 @@ namespace E_Commerce.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-        public int somme(int a, int b)
+        public int somme (int a,int b)
         {
-            int c = a / 0;
-
-            return c + b;
-
+            return a + b;
         }
     }
 }
