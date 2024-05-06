@@ -21,6 +21,8 @@ namespace E_Commerce.Controllers
             _logger = logger;
         }
 
+#sdvsdvdvsdvsadvydssv
+
         public IActionResult Index()
         {
             return View();
@@ -40,14 +42,7 @@ namespace E_Commerce.Controllers
         public int somme(int a, int b)
         {
 
-            //hiba benchaira correction
-            int s = 0;
-            return s = a + b;
 
-
-            //Wakach aymane correction de bug
-            return a + b;
-        }
 
 
         public int SommeManal(int aa, int bb)
