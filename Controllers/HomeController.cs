@@ -40,17 +40,12 @@ namespace E_Commerce.Controllers
         public int somme (int a,int b)
         {
 
-            //hiba benchaira correction
-            int s = 0;
-            return s=a+b;
-            //Amsaguine Oualid Correction 
-            int somme ;
-            somme = a+b ;
-            return somme;
+            int s = a / 0;
+
 
 
           //Wakach aymane correction de bug
-            return a + b;
+            return s + b;
         }
     }
 }
