@@ -38,11 +38,11 @@ namespace E_Commerce.Controllers
         }
         /// le code corrige 
         public int somme (int a,int b)
-        {
+        {//GramiSalma Correction bug
 
-            int s = a / 0;
+            int s = a + b;
 
-            return s + b;
+            return  s;
         }
     }
 }
