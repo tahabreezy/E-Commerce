@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace E_Commerce.Controllers
 {
 
-    // release
+
     public class HomeController : Controller
     {
     
