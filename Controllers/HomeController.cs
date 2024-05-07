@@ -39,11 +39,10 @@ namespace E_Commerce.Controllers
         /// le code corrige 
         public int somme (int a,int b)
         {
-            int s = 0;
-            if(b!=0)
-              s = a / b;
 
-            return s + b;
+            int s = a+b;
+
+            return s ;
         }
     }
 }
