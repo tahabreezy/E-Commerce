@@ -40,9 +40,21 @@ namespace E_Commerce.Controllers
         public int somme (int a,int b)
         {
 
-            int s = a/0;
+
+
+            int s = a / b;
 
             return s + b;
+
+
+
+            //gramisalma
+            //HADEG 
+
+
+            return a + b;
+
+
         }
     }
 }
