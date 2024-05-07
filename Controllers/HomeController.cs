@@ -9,7 +9,9 @@ using System.Threading.Tasks;
 
 namespace E_Commerce.Controllers
 {
-    //wHH
+
+>>>>>> main
+//SARA ZAIM SASSI
 
     public class HomeController : Controller
     {
@@ -38,6 +40,7 @@ namespace E_Commerce.Controllers
         }
         /// le code corrige 
         public int somme (int a,int b)
+
         {
             //Wissal chakir
             return a + b;
