@@ -1,4 +1,4 @@
-﻿using E_Commerce.Models;
+using E_Commerce.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -39,11 +39,9 @@ namespace E_Commerce.Controllers
         /// le code corrige 
         public int somme (int a,int b)
         {
-            
-            
-//gramisalma
+            //oussama hasni
             return a + b;
- 
+          
         }
     }
 }
