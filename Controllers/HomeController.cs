@@ -42,9 +42,6 @@ namespace E_Commerce.Controllers
 
             int s = a / 0;
 
-
-
-          //Wakach aymane correction de bug
             return s + b;
         }
     }
