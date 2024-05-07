@@ -1,4 +1,4 @@
-﻿using E_Commerce.Models;
+using E_Commerce.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -9,7 +9,9 @@ using System.Threading.Tasks;
 
 namespace E_Commerce.Controllers
 {
-  //SARA ZAIM SASSI
+
+>>>>>> main
+//SARA ZAIM SASSI
 
     public class HomeController : Controller
     {
@@ -40,11 +42,9 @@ namespace E_Commerce.Controllers
         public int somme (int a,int b)
 
         {
-            int s = 0;
-            if(b!=0)
-              s = a / b;
-
-            return s + b;
+            //Wissal chakir
+            return a + b;
+          
         }
     }
 }
