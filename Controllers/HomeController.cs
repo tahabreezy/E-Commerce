@@ -39,7 +39,7 @@ namespace E_Commerce.Controllers
         /// le code corrige 
         public int somme (int a,int b)
         {
-            //oussama hasni
+            //Wissal chakir
             return a + b;
           
         }
