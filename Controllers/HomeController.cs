@@ -49,7 +49,7 @@ namespace E_Commerce.Controllers
 
 
             //gramisalma
-            //HADEG  Hayat
+            //HADEG  Hayat g7
 
 
             return a + b;
