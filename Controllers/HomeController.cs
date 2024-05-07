@@ -1,4 +1,4 @@
-﻿using E_Commerce.Models;
+using E_Commerce.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace E_Commerce.Controllers
 {
-
+    //wHH
 
     public class HomeController : Controller
     {
@@ -39,11 +39,9 @@ namespace E_Commerce.Controllers
         /// le code corrige 
         public int somme (int a,int b)
         {
-            int s = 0;
-            if(b!=0)
-              s = a / b;
-
-            return s + b;
+            //Wissal chakir
+            return a + b;
+          
         }
     }
 }
