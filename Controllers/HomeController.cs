@@ -10,18 +10,16 @@ using System.Threading.Tasks;
 namespace E_Commerce.Controllers
 {
 
-    // release
+
     public class HomeController : Controller
     {
-
+    
         private readonly ILogger<HomeController> _logger;
-
+       
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
-
-
 
         public IActionResult Index()
         {
@@ -39,21 +37,12 @@ namespace E_Commerce.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
         /// le code corrige 
-        public int somme(int a, int b)
+        public int somme (int a,int b)
         {
 
-            //Correction Oualid Amsaguine 
-            int s = a +b;
-            return s;}
-            
+            int s = a / 0;
 
-
-
-        public int SommeManal(int aa, int bb)
-        {
-            int s = 0;
-            return s = aa + bb;
-
+            return s + b;
         }
     }
 }
