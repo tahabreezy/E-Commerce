@@ -39,11 +39,13 @@ namespace E_Commerce.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
         /// le code corrige 
-        public int somme (int a,int b)
+       //AzagharTaha g7
 
-        {
-            //Wissal chakir
+
+
             return a + b;
+
+           //Bugfix
           
         }
     }
